@@ -14,8 +14,14 @@ pop()
 peek() - non-destructive look at top of the stack
 print() - debug routine to print out the current state of the stack
 
-
 **Task Two**
+
+Implement a simple stack based calculator which:
+- Loops round until the user enters "exit"
+- If the user enters an integer, push it on the stack
+- If the user users a "+" or a "-", pop two items off the stack and push the result.
+
+**Task Three**
 
 Implement and test the methods in Task One using a list implmentation (C# list collection or your own prior implementation)
 
