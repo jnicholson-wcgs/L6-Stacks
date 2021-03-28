@@ -1,0 +1,2 @@
+run='mcs -unsafe -out:stack.exe stack.cs && mono stack.exe'
+language = "csharp"
