@@ -14,6 +14,8 @@ pop()
 peek() - non-destructive look at top of the stack
 print() - debug routine to print out the current state of the stack
 
+Ensure you test stack underflow and overflow (using a small stack array!)
+
 **Task Two**
 
 Implement a simple stack based calculator which:
@@ -23,14 +25,14 @@ Implement a simple stack based calculator which:
 
 **Task Three**
 
-Implement and test the methods in Task One using a list implmentation (C# list collection or your own prior implementation)
+Implement and test the methods in Task One using a list implementation (C# list collection or your own prior implementation)
 
-**Task Three - Optional**
+**Task Four - Optional**
 
 Create an abstract class _Stack()
-Modify your implementations in Task One and Task Two to implment:
+Modify your implementations in Task One and Task Two to implement:
 - StackA- inherits from _Stack
 - StackL - inherits from _Stack
 
-Test your StackL and StackA classese
+Test your StackL and StackA classes
 
